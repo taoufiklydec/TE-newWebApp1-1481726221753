@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TE-newWebApp1
+  host: TE-newWebApp1
+  disk_quota: 1024M
+  services:
+  - TE-newWebApp1-cloudantNoSQLDB
